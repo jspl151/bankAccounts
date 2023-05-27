@@ -70,10 +70,12 @@ const displayBalances = (accounts) => {
 }
 // Do not change below this line.
 const main = () => {
+
   console.log('Balances before transactions');
   displayBalances(accounts);
   updateBalancesWithTransactions(transactions);
   console.log('Balances after transactions');
   displayBalances(accounts);
+
 };
 main();
