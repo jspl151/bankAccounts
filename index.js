@@ -67,9 +67,7 @@ const displayBalances = (accounts) => {
   }));
 
   console.table(result);
-
 }
-
 // Do not change below this line.
 const main = () => {
   console.log('Balances before transactions');
